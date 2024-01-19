@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}/* Estilo para o corpo da página */
+body {
+    background-image: url(imagem\ fundo.png); /*adiciona uma imagem no fundo da tela*/
+    background-repeat: no-repeat; /*para não haver repetição da imagem*/
+    background-attachment: fixed; /*fixa a imagem para que não passe junto com o site*/
+    background-size: cover; /*para a imagem não cobrir o conteúdo do site*/
+    font-family: Arial; /*estio de fonte*/
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1em; /*tamanho do titulo*/
+    color: #000000;
+    margin-left: 100px;/*margem esquerda*/
+    margin-top: 5px; /*margem superior*/
+    margin-right: 200px; /*margem direita*/
+    text-align: justify; /*alinhamento do texto justificado*/
+}
+
+  img {
+    /* Aplica a todos as imagens */
+    width: 200px; /* Define a largura */
+    min-height: auto; /* Mantém a proporção */
+}
+
+img.jpg {
+    /* Aplica somente a imagens JPG */
+    border: 1px solid #000000;
+    display: block;
+    width: 200px; /* Define a largura */
+    margin-top: 10px; /*define a distancia da margem superior*/
+    margin-right: 50px; /*define a distancia da margem a direita*/
+    margin-bottom: 50px; /*define a distancia da margem inferior*/
+    margin-left: 50px; /*define a distancia da margem a esquerda*/
+  }
+  h2 {
+    /* Estilo para cabeçalhos */
+    color: #000000;
+    line-height: 3; /*distancia do cabeçalho das demais linhas*/
+    margin-right: 3px; /*margem direita*/
+    font-size: 20px; /*tamanho da fonte*/
+    font-family: georgia; /*tipo de fonte*/
+  }
+
+  /* Estilo para parágrafos */
+  p {
+    font-size: 16px; /*define o tamanho da fonte dos caracteres dentro da tag p*/
+    line-height: 2; /*define o espaço entre um linha e outra dentro da tag p*/
+    color: #000000;
+  }
+
+  ul {
+    font-size: 16px; /*define o tamanho da letra dentro da tag ul*/
+    line-height: 2; /*define o espaço entre um linha e outra dentro da tag ul*/
+    color: #000000;
+  }
